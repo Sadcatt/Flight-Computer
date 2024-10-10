@@ -386,6 +386,22 @@
     [
       "e52639ab-1647-4d34-8bc5-5aadc4708147",
       "Root"
+    ],
+    [
+      "28e3f1a4-a9ec-420d-b6dc-1cdf5f0e43fa",
+      "Power Sheet"
+    ],
+    [
+      "bce62fb1-fbca-4525-8360-dcbd1c3e25b0",
+      "MCU et al Sheet"
+    ],
+    [
+      "91163aee-9dbf-4c65-9e36-6195b1c90b0f",
+      "Interface and Debugging"
+    ],
+    [
+      "0520d17d-7008-4de7-a0fa-81e512ae3ac7",
+      "Pressure Sensor"
     ]
   ],
   "text_variables": {}
