@@ -3159,6 +3159,28 @@
 			)
 		)
 	)
+	(global_label "System_Reset"
+		(shape input)
+		(at 78.74 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b95a23ce-99bd-4b78-b6c0-aee288cffd13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.8734 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Flash Data In"
 		(shape input)
 		(at 116.84 86.36 0)
@@ -3268,18 +3290,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "System_Reset"
-		(shape input)
-		(at 78.74 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f3f4574-61ff-49ee-9482-bf56dba0e4f0")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
