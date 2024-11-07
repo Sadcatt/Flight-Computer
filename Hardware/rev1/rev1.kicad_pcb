@@ -158,7 +158,7 @@
 	(net 13 "unconnected-(U1-PB2-Pad20)")
 	(net 14 "unconnected-(U1-PA3-Pad13)")
 	(net 15 "unconnected-(U1-PB11-Pad22)")
-	(net 16 "System_Reset")
+	(net 16 "/MCU et al Sheet/System_Reset")
 	(net 17 "NC{slash}TDI_Debug")
 	(net 18 "unconnected-(U1-BOOT0-Pad44)")
 	(net 19 "unconnected-(U1-PA8-Pad29)")
@@ -262,7 +262,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/91163aee-9dbf-4c65-9e36-6195b1c90b0f/95230689-7b58-471c-be83-a3ba25604542")
 		(sheetname "Interface and Debugging")
 		(sheetfile "Interface_and_debugging.kicad_sch")
 		(attr smd)
@@ -1150,7 +1149,7 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 16 "System_Reset")
+			(net 16 "/MCU et al Sheet/System_Reset")
 			(pinfunction "NRST")
 			(pintype "input")
 			(uuid "33202bec-4d16-40e7-9a02-1fbeef321237")
@@ -1584,7 +1583,7 @@
 		(descr "single screw terminal block Metz Connect 360272, block size 4x4mm^2, drill diamater 1.5mm, 2 pads, pad diameter 3mm, see http://www.metz-connect.com/de/system/files/METZ_CONNECT_U_Contact_Katalog_Anschlusssysteme_fuer_Leiterplatten_DE_31_07_2017_OFF_024803.pdf?language=en page 131, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect")
 		(tags "THT single screw terminal block Metz Connect 360272 size 4x4mm^2 drill 1.5mm pad 3mm")
 		(property "Reference" "J3"
-			(at 1.5 -3.06 360)
+			(at 1.5 -3.06 0)
 			(layer "F.SilkS")
 			(uuid "320b26c1-9d76-49aa-b4c8-cce12af937af")
 			(effects
@@ -1595,7 +1594,7 @@
 			)
 		)
 		(property "Value" "TerminalBlock_MetzConnect_360272_1x01_Horizontal_ScrewM2.6"
-			(at 1.5 3.06 360)
+			(at 1.5 3.06 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b26d0b2a-be91-41e5-8f35-be01cd23dffc")
@@ -1851,7 +1850,7 @@
 			(uuid "90c75ae9-717a-4207-91b2-cd1d5600bc54")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.5 -3.06 360)
+			(at 1.5 -3.06 0)
 			(layer "F.Fab")
 			(uuid "a7207761-a78f-4ba0-b913-095fb07c33cf")
 			(effects
@@ -2383,7 +2382,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/91163aee-9dbf-4c65-9e36-6195b1c90b0f/38498571-27a4-403b-9004-76a472fae077")
 		(sheetname "Interface and Debugging")
 		(sheetfile "Interface_and_debugging.kicad_sch")
 		(attr smd)
@@ -2809,7 +2807,6 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*5.23x5.23mm*P1.27mm*")
-		(path "/bce62fb1-fbca-4525-8360-dcbd1c3e25b0/59ba59f0-f0fe-4a8e-aa32-46a79264897b")
 		(sheetname "MCU et al Sheet")
 		(sheetfile "MCU.kicad_sch")
 		(attr smd)
@@ -3313,7 +3310,7 @@
 			(uuid "e2dc4641-9686-41ec-8b5a-9b8ecbb9c993")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.2 0 360)
+			(at 0.2 0 0)
 			(layer "F.Fab")
 			(uuid "e48628af-9199-4cf9-bb68-45959e04d396")
 			(effects
@@ -4316,7 +4313,6 @@
 			)
 		)
 		(property ki_fp_filters "Crystal*")
-		(path "/91163aee-9dbf-4c65-9e36-6195b1c90b0f/d059388a-11e6-428b-acdd-077103dd37a2")
 		(sheetname "Interface and Debugging")
 		(sheetfile "Interface_and_debugging.kicad_sch")
 		(attr smd)
