@@ -3420,16 +3420,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 71.12) (xy 92.71 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "170ef0c0-bcb4-4af6-bc72-802f78937bab")
-	)
-	(wire
-		(pts
 			(xy 181.61 45.72) (xy 181.61 43.18)
 		)
 		(stroke
@@ -3770,6 +3760,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 73.66) (xy 92.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656c00ad-a1d5-4a16-9127-8c03e72e04f1")
+	)
+	(wire
+		(pts
 			(xy 69.85 36.83) (xy 72.39 36.83)
 		)
 		(stroke
@@ -3987,16 +3987,6 @@
 			(type default)
 		)
 		(uuid "8f645b8e-c1b8-4aa8-8d14-a6f0c474e1b9")
-	)
-	(wire
-		(pts
-			(xy 85.09 73.66) (xy 92.71 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "919c7c05-8387-4c6e-b3cd-3d2c59be8262")
 	)
 	(wire
 		(pts
@@ -4440,6 +4430,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 71.12) (xy 92.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f247d322-6269-48ea-a2af-9d6a5cda651d")
+	)
+	(wire
+		(pts
 			(xy 69.85 36.83) (xy 69.85 38.1)
 		)
 		(stroke
@@ -4630,8 +4630,8 @@
 		)
 		(uuid "d56a8698-467a-4cec-b7f8-af7dae8b7ecb")
 	)
-	(label "D-"
-		(at 87.63 71.12 0)
+	(label "USB.D-"
+		(at 85.09 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4641,8 +4641,8 @@
 		)
 		(uuid "5dca7d44-a576-4a6d-a91b-712c237b7bb9")
 	)
-	(label "D+"
-		(at 87.63 73.66 0)
+	(label "USB.D+"
+		(at 85.09 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4872,7 +4872,7 @@
 			)
 		)
 	)
-	(global_label "Flash Data Out"
+	(global_label "Flash_Data_Out"
 		(shape input)
 		(at 224.79 101.6 180)
 		(fields_autoplaced yes)
@@ -4960,7 +4960,7 @@
 			)
 		)
 	)
-	(global_label "Flash Data In"
+	(global_label "Flash_Data_In"
 		(shape input)
 		(at 224.79 99.06 180)
 		(fields_autoplaced yes)
@@ -5136,7 +5136,7 @@
 			)
 		)
 	)
-	(global_label "BUZZER_CHANNEL"
+	(global_label "Buzzer_Channel"
 		(shape input)
 		(at 49.53 83.82 180)
 		(fields_autoplaced yes)
@@ -5148,7 +5148,7 @@
 		)
 		(uuid "bd2cc0ea-e642-4c9f-9529-e4f2d3b38998")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.6115 83.82 0)
+			(at 31.6074 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5158,7 @@
 			)
 		)
 	)
-	(global_label "SWO_DEBUG"
+	(global_label "SWO_Debug"
 		(shape input)
 		(at 49.53 78.74 180)
 		(fields_autoplaced yes)
@@ -5170,7 +5170,7 @@
 		)
 		(uuid "c7a36fab-2c22-4e4b-924d-43fb8c2401ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.2963 78.74 0)
+			(at 35.7802 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5290,7 @@
 			)
 		)
 	)
-	(hierarchical_label "USB"
+	(hierarchical_label "USB{D+, D-}"
 		(shape bidirectional)
 		(at 96.52 67.31 0)
 		(fields_autoplaced yes)

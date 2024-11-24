@@ -3255,7 +3255,7 @@
 		)
 		(uuid "fcfaae4c-dbc6-44b9-804d-9f79b69ca7a3")
 	)
-	(label "D+"
+	(label "USB.D+"
 		(at 72.39 66.04 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3266,7 +3266,7 @@
 		)
 		(uuid "05f43105-8c64-41c5-84a6-ccf2150de9ea")
 	)
-	(label "D-"
+	(label "USB.D-"
 		(at 72.39 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3277,7 +3277,7 @@
 		)
 		(uuid "fec69ab8-7f58-48e7-a75a-6ab42180007e")
 	)
-	(hierarchical_label "USB"
+	(hierarchical_label "USB{D+, D-}"
 		(shape bidirectional)
 		(at 82.55 71.12 0)
 		(fields_autoplaced yes)
@@ -3288,6 +3288,26 @@
 			(justify left)
 		)
 		(uuid "69ed7238-71cf-4f0f-8de1-c099afcc558d")
+		(property "USB.D-" ""
+			(at 82.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "USB.D+" ""
+			(at 82.55 74.041 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Regulator_Linear:HT75xx-1-SOT89")

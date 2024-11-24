@@ -9,7 +9,7 @@
 		(company "StrathGREM Ltd.")
 	)
 	(lib_symbols)
-	(wire
+	(bus
 		(pts
 			(xy 144.78 95.25) (xy 152.4 95.25)
 		)
@@ -17,7 +17,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ed8ad324-b58f-471a-9d5f-d32031b97c45")
+		(uuid "6a8387dc-e596-4035-b96e-3a0ab5a204b4")
 	)
 	(sheet
 		(at 152.4 77.47)
@@ -49,7 +49,7 @@
 				(justify left top)
 			)
 		)
-		(pin "USB" bidirectional
+		(pin "USB{D+, D-}" bidirectional
 			(at 152.4 95.25 180)
 			(effects
 				(font
@@ -97,7 +97,7 @@
 				(justify left top)
 			)
 		)
-		(pin "USB" bidirectional
+		(pin "USB{D+, D-}" bidirectional
 			(at 144.78 95.25 0)
 			(effects
 				(font
