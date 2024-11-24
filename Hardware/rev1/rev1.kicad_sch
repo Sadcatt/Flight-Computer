@@ -9,8 +9,18 @@
 		(company "StrathGREM Ltd.")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 144.78 95.25) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8ad324-b58f-471a-9d5f-d32031b97c45")
+	)
 	(sheet
-		(at 36.83 102.87)
+		(at 152.4 77.47)
 		(size 58.42 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -20,9 +30,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "0520d17d-7008-4de7-a0fa-81e512ae3ac7")
-		(property "Sheetname" "Pressure Sensor"
-			(at 36.83 102.1584 0)
+		(uuid "1e23a58f-6de3-4599-8764-fd8b445df38e")
+		(property "Sheetname" "Microcontroller"
+			(at 152.4 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,14 +40,24 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Pressure_Sensor.kicad_sch"
-			(at 36.83 140.2846 0)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 152.4 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "USB" bidirectional
+			(at 152.4 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "09a91010-52f5-4cae-8299-2959391df74e")
 		)
 		(instances
 			(project "rev1"
@@ -48,7 +68,7 @@
 		)
 	)
 	(sheet
-		(at 36.83 35.56)
+		(at 86.36 77.47)
 		(size 58.42 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -60,7 +80,7 @@
 		)
 		(uuid "28e3f1a4-a9ec-420d-b6dc-1cdf5f0e43fa")
 		(property "Sheetname" "Power Sheet"
-			(at 36.83 34.8484 0)
+			(at 86.36 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,94 +89,28 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 36.83 72.9746 0)
+			(at 86.36 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "USB" bidirectional
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76100b01-d55e-4fda-a8ad-da6016d1144b")
 		)
 		(instances
 			(project "rev1"
 				(path "/e52639ab-1647-4d34-8bc5-5aadc4708147"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 163.83 102.87)
-		(size 58.42 36.83)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "91163aee-9dbf-4c65-9e36-6195b1c90b0f")
-		(property "Sheetname" "Interface and Debugging"
-			(at 163.83 102.1584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Interface_and_debugging.kicad_sch"
-			(at 163.83 140.2846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "rev1"
-				(path "/e52639ab-1647-4d34-8bc5-5aadc4708147"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 163.83 35.56)
-		(size 58.42 36.83)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "bce62fb1-fbca-4525-8360-dcbd1c3e25b0")
-		(property "Sheetname" "MCU et al Sheet"
-			(at 163.83 34.8484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MCU.kicad_sch"
-			(at 163.83 72.9746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "rev1"
-				(path "/e52639ab-1647-4d34-8bc5-5aadc4708147"
-					(page "3")
 				)
 			)
 		)
