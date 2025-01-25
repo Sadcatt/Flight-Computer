@@ -594,11 +594,15 @@
     ],
     [
       "28e3f1a4-a9ec-420d-b6dc-1cdf5f0e43fa",
-      "Power Sheet"
+      "Power"
     ],
     [
       "1e23a58f-6de3-4599-8764-fd8b445df38e",
       "Microcontroller"
+    ],
+    [
+      "4731d05e-d07c-4651-abf4-57ae8c9dd400",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
