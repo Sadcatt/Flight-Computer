@@ -11,7 +11,7 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 144.78 95.25) (xy 152.4 95.25)
+			(xy 143.51 57.15) (xy 151.13 57.15)
 		)
 		(stroke
 			(width 0)
@@ -20,7 +20,7 @@
 		(uuid "6a8387dc-e596-4035-b96e-3a0ab5a204b4")
 	)
 	(sheet
-		(at 152.4 77.47)
+		(at 151.13 39.37)
 		(size 58.42 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -32,7 +32,7 @@
 		)
 		(uuid "1e23a58f-6de3-4599-8764-fd8b445df38e")
 		(property "Sheetname" "Microcontroller"
-			(at 152.4 76.7584 0)
+			(at 151.13 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 152.4 114.8846 0)
+			(at 151.13 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +50,7 @@
 			)
 		)
 		(pin "USB{D+, D-}" bidirectional
-			(at 152.4 95.25 180)
+			(at 151.13 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,16 +59,48 @@
 			)
 			(uuid "09a91010-52f5-4cae-8299-2959391df74e")
 		)
+		(pin "DEBUG{TMS{slash}SWDIO, JTCK{slash}SWCLK, JTDI{slash}NC, JTDO{slash}SWO}"
+			bidirectional
+			(at 209.55 43.18 0
+			)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52eb9ee8-c8eb-40cb-bce3-96e1a56d938d")
+		)
+		(pin "SPI1{SCLK, MISO, MOSI}" bidirectional
+			(at 209.55 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "61e75f85-e73f-4659-8c23-a75d4e1563cc")
+		)
+		(pin "I2C2{SCK, SDA}" bidirectional
+			(at 209.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c54b6d23-6840-4d40-a8f6-81b09fee8daa")
+		)
 		(instances
 			(project "rev1"
 				(path "/e52639ab-1647-4d34-8bc5-5aadc4708147"
-					(page "5")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 86.36 77.47)
+		(at 85.09 39.37)
 		(size 58.42 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -79,8 +111,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "28e3f1a4-a9ec-420d-b6dc-1cdf5f0e43fa")
-		(property "Sheetname" "Power Sheet"
-			(at 86.36 76.7584 0)
+		(property "Sheetname" "Power"
+			(at 85.09 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89,7 +121,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 86.36 114.8846 0)
+			(at 85.09 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -98,7 +130,7 @@
 			)
 		)
 		(pin "USB{D+, D-}" bidirectional
-			(at 144.78 95.25 0)
+			(at 143.51 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,6 +143,53 @@
 			(project "rev1"
 				(path "/e52639ab-1647-4d34-8bc5-5aadc4708147"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 96.52)
+		(size 68.58 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4731d05e-d07c-4651-abf4-57ae8c9dd400")
+		(property "Sheetname" "Peripherals"
+			(at 146.05 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pressure_Sensor.kicad_sch"
+			(at 146.05 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "rev1"
+				(path "/e52639ab-1647-4d34-8bc5-5aadc4708147"
+					(page "4")
 				)
 			)
 		)
