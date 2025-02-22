@@ -11,7 +11,27 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 143.51 57.15) (xy 151.13 57.15)
+			(xy 170.18 85.09) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c4cc8f-b5ec-4ae3-add8-62dc7f16c7f5")
+	)
+	(bus
+		(pts
+			(xy 170.18 82.55) (xy 180.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2060dcbf-89fc-4ccd-b906-1a82a054264d")
+	)
+	(bus
+		(pts
+			(xy 104.14 96.52) (xy 111.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -19,8 +39,18 @@
 		)
 		(uuid "6a8387dc-e596-4035-b96e-3a0ab5a204b4")
 	)
+	(bus
+		(pts
+			(xy 170.18 87.63) (xy 180.34 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85a41ff-c8f9-4a24-b6c4-08cd9f79d268")
+	)
 	(sheet
-		(at 151.13 39.37)
+		(at 111.76 78.74)
 		(size 58.42 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -32,7 +62,7 @@
 		)
 		(uuid "1e23a58f-6de3-4599-8764-fd8b445df38e")
 		(property "Sheetname" "Microcontroller"
-			(at 151.13 38.6584 0)
+			(at 111.76 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +71,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 151.13 76.7846 0)
+			(at 111.76 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +80,7 @@
 			)
 		)
 		(pin "USB{D+, D-}" bidirectional
-			(at 151.13 57.15 180)
+			(at 111.76 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,9 +89,9 @@
 			)
 			(uuid "09a91010-52f5-4cae-8299-2959391df74e")
 		)
-		(pin "DEBUG{TMS{slash}SWDIO, JTCK{slash}SWCLK, JTDI{slash}NC, JTDO{slash}SWO}"
+		(pin "DBG{TMS{slash}SWDIO, JTCK{slash}SWCLK, JTDI{slash}NC, JTDO{slash}SWO, NRESET}"
 			bidirectional
-			(at 209.55 43.18 0
+			(at 170.18 82.55 0
 			)
 			(effects
 				(font
@@ -72,7 +102,7 @@
 			(uuid "52eb9ee8-c8eb-40cb-bce3-96e1a56d938d")
 		)
 		(pin "SPI1{SCLK, MISO, MOSI}" bidirectional
-			(at 209.55 45.72 0)
+			(at 170.18 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +112,7 @@
 			(uuid "61e75f85-e73f-4659-8c23-a75d4e1563cc")
 		)
 		(pin "I2C2{SCK, SDA}" bidirectional
-			(at 209.55 48.26 0)
+			(at 170.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,7 +130,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 39.37)
+		(at 45.72 78.74)
 		(size 58.42 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -112,7 +142,7 @@
 		)
 		(uuid "28e3f1a4-a9ec-420d-b6dc-1cdf5f0e43fa")
 		(property "Sheetname" "Power"
-			(at 85.09 38.6584 0)
+			(at 45.72 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121,7 +151,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 85.09 76.7846 0)
+			(at 45.72 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +160,7 @@
 			)
 		)
 		(pin "USB{D+, D-}" bidirectional
-			(at 143.51 57.15 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,8 +178,8 @@
 		)
 	)
 	(sheet
-		(at 146.05 96.52)
-		(size 68.58 25.4)
+		(at 180.34 78.74)
+		(size 58.42 36.83)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -160,7 +190,7 @@
 		)
 		(uuid "4731d05e-d07c-4651-abf4-57ae8c9dd400")
 		(property "Sheetname" "Peripherals"
-			(at 146.05 95.8084 0)
+			(at 180.34 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "Pressure_Sensor.kicad_sch"
-			(at 146.05 122.5046 0)
+			(at 180.34 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -178,13 +208,45 @@
 			)
 		)
 		(property "Field2" ""
-			(at 146.05 96.52 0)
+			(at 180.34 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "I2C2{SCK, SDA}" bidirectional
+			(at 180.34 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "25c830fa-3102-4dc2-922b-b8a15c4eeaef")
+		)
+		(pin "DBG{TMS{slash}SWDIO, JTCK{slash}SWCLK, JTDI{slash}NC, JTDO{slash}SWO, NRESET}"
+			bidirectional
+			(at 180.34 82.55 180
+			)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "00bed655-5952-4274-9f84-b52c68f11d9a")
+		)
+		(pin "SPI1{SCLK, MISO, MOSI}" bidirectional
+			(at 180.34 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc7a2412-891d-4b89-b110-2f457cdc0a3e")
 		)
 		(instances
 			(project "rev1"
