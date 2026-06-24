@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "e52639ab-1647-4d34-8bc5-5aadc4708147")
 	(paper "A4")
 	(title_block
@@ -52,17 +52,23 @@
 	(sheet
 		(at 111.76 78.74)
 		(size 58.42 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "1e23a58f-6de3-4599-8764-fd8b445df38e")
 		(property "Sheetname" "Microcontroller"
 			(at 111.76 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,6 +78,8 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 111.76 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,45 +89,45 @@
 		)
 		(pin "USB{D+, D-}" bidirectional
 			(at 111.76 96.52 180)
+			(uuid "09a91010-52f5-4cae-8299-2959391df74e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "09a91010-52f5-4cae-8299-2959391df74e")
 		)
 		(pin "DBG{TMS{slash}SWDIO, JTCK{slash}SWCLK, JTDI{slash}NC, JTDO{slash}SWO, NRESET}"
 			bidirectional
 			(at 170.18 82.55 0
 			)
+			(uuid "52eb9ee8-c8eb-40cb-bce3-96e1a56d938d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "52eb9ee8-c8eb-40cb-bce3-96e1a56d938d")
 		)
 		(pin "SPI1{SCLK, MISO, MOSI}" bidirectional
 			(at 170.18 85.09 0)
+			(uuid "61e75f85-e73f-4659-8c23-a75d4e1563cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "61e75f85-e73f-4659-8c23-a75d4e1563cc")
 		)
 		(pin "I2C2{SCK, SDA}" bidirectional
 			(at 170.18 87.63 0)
+			(uuid "c54b6d23-6840-4d40-a8f6-81b09fee8daa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c54b6d23-6840-4d40-a8f6-81b09fee8daa")
 		)
 		(instances
 			(project "rev1"
@@ -132,17 +140,23 @@
 	(sheet
 		(at 45.72 78.74)
 		(size 58.42 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "28e3f1a4-a9ec-420d-b6dc-1cdf5f0e43fa")
 		(property "Sheetname" "Power"
 			(at 45.72 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,6 +166,8 @@
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
 			(at 45.72 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,13 +177,13 @@
 		)
 		(pin "USB{D+, D-}" bidirectional
 			(at 104.14 96.52 0)
+			(uuid "76100b01-d55e-4fda-a8ad-da6016d1144b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "76100b01-d55e-4fda-a8ad-da6016d1144b")
 		)
 		(instances
 			(project "rev1"
@@ -180,17 +196,23 @@
 	(sheet
 		(at 180.34 78.74)
 		(size 58.42 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "4731d05e-d07c-4651-abf4-57ae8c9dd400")
 		(property "Sheetname" "Peripherals"
 			(at 180.34 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,6 +222,8 @@
 		)
 		(property "Sheetfile" "Pressure_Sensor.kicad_sch"
 			(at 180.34 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -209,44 +233,46 @@
 		)
 		(property "Field2" ""
 			(at 180.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "I2C2{SCK, SDA}" bidirectional
 			(at 180.34 87.63 180)
+			(uuid "25c830fa-3102-4dc2-922b-b8a15c4eeaef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "25c830fa-3102-4dc2-922b-b8a15c4eeaef")
 		)
 		(pin "DBG{TMS{slash}SWDIO, JTCK{slash}SWCLK, JTDI{slash}NC, JTDO{slash}SWO, NRESET}"
 			bidirectional
 			(at 180.34 82.55 180
 			)
+			(uuid "00bed655-5952-4274-9f84-b52c68f11d9a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "00bed655-5952-4274-9f84-b52c68f11d9a")
 		)
 		(pin "SPI1{SCLK, MISO, MOSI}" bidirectional
 			(at 180.34 85.09 180)
+			(uuid "fc7a2412-891d-4b89-b110-2f457cdc0a3e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fc7a2412-891d-4b89-b110-2f457cdc0a3e")
 		)
 		(instances
 			(project "rev1"
@@ -261,4 +287,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
